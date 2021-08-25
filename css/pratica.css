@@ -1,0 +1,68 @@
+#testo {
+  background: rgb(65,128,124);
+  background: linear-gradient(0deg, rgba(65,128,124,1) 0%, rgba(217,217,217,1) 63%); /* sfondo con sfumatura ottenuto da sito web */
+  padding-left: 100px;
+  padding-right: 100px;
+  height: 100%;
+  padding-bottom: 50px;
+}
+
+#testo img {
+  margin-top: -25px; /*Compensa il margin-bottom dell testo*/
+  height: 40%; /*Altezza img*/
+}
+
+.titolo {
+  font-family: Roboto;
+  font-size: 100px;
+  padding-top: 20px;
+}
+
+.sottotitolo {
+  margin-top: -5px;
+  font-family: Roboto;
+  font-size: 25px;
+  font-weight: bolder;
+  margin-bottom: -10px;
+}
+
+p {
+  text-align: justify;
+  word-spacing: 2px;
+  font-size: 17px;
+  font-family: open sans;
+  margin-bottom: 30px;
+  padding-top: 20px;
+  line-height: 28px;
+}
+
+#campi_applicativi ul {
+
+}
+
+#campi_applicativi li {
+  list-style-type: circle;
+  font-family: open sans;
+  padding-bottom: 4px; /*Spazio tra una riga e l'altra*/
+  margin-left: 30px;
+}
+
+#primo {
+  margin-top: -20px;
+}
+.tabella {
+font-family: Open sans;
+font-size: 14px;
+text-align: center;
+padding-left: 5%;
+}
+
+td {
+background: #d9d9d9;
+padding: 10px 20px;
+border-style: solid;
+border-width: 2px 2px 2px 2px;
+border-color: white;
+background: #d9d9d9;
+box-shadow: 0 10px 50px 0 rgba(0, 0, 0, 0.2), 0 6px 30px 0 rgba(0, 0, 0, 0.19);
+}
