@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+::-webkit-scrollbar {
+    display: none; /* Nasconde la barra di scorrimento */
+}
+
+nav {
+  margin-bottom: 2000px;
+  padding: 1em; //Da sistemare
+}
+
+header {
+  z-index: -1;
+  padding-top: 30px;
+  margin-top: 0;
+  height: 110px;
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+  background-color: #41807c;
+  position: relative;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+header h1 {
+  margin-top: 0;
+  text-align: center;
+  color: White;
+  font-family: Roboto;
+  font-size: 54px;
+  text-shadow: 4px 4px 2px black;
+}
+
+#nav {
+  margin-bottom: 14.5px;
+  height: 16.5px;
+}
+
+#fixed-nav {
+  margin-top: -16px;
+  text-align: center;
+  position: relative;
+  text-transform: uppercase; /* Trasforma in maiuscolo */
+}
+
+ul {
+  align-items: center; /*allinea al centro gli elementi della lista*/
+  width: 100%;
+}
+
+#navli {
+  display:inline-block; /* Visualizzazione in linea degli oggetti*/
+}
+
+li a {
+  letter-spacing: 3px; /* Spaziatura tra le lettere */
+  display: block; /* Mantiene gli elementi della lista immobili */
+  text-align: center; /* Testo allineato al centro del rettangolo */
+  padding: 5px 25px; /* Distanza del rettangolo dal testo */
+  text-decoration: none; /* Rimuove il sottolineato dei link */
+  color: black; /* Colore testo nero */
+  font-family: open sans;
+  margin-right: 5px;
+  text-shadow: 0px 0px 1px grey;
+}
+
+li a:hover:not(.active) {
+  background-color: #adcce9; /* Colore rettangolo quando passa il mouse */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.active {
+  background-color: #eafdfc; /* Colore rettangolo pagina attiva */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.logo img {
+  position: absolute; /* Posizione assoluta rispetto al resto */
+  height: 80%; /* Ridimensionamento dell'img */
+  left: 40px;
+  top: 8%; /* Distanza dall'alto */
+  border-radius: 50%; /* Arrotonda bordi img */
+  box-shadow: 0 10px 50px 0 rgba(0, 0, 0, 0.2), 0 6px 30px 0 rgba(0, 0, 0, 0.19);
+}
+
+#profilo {
+  background-color: #d9d9d9;
+  font-weight: bold;
+}
+
+#profilo img {
+  border-radius: 50%;
+  width: 10%;
+  height: auto;
+  margin: 40px 0 10px 100px;
+  box-shadow: 0 10px 50px 0 rgba(0, 0, 0, 0.2), 0 6px 30px 0 rgba(0, 0, 0, 0.19);
+}
+
+#profilo h2 {
+  position: absolute;
+  display:inline-block;
+  margin: 80px 0 0 20px;
+  text-shadow: 1px 1px 3px grey;
+}
+
+#profilo h4 {
+  position: absolute;
+  display:inline-block;
+  margin: 113px 0 0 20px;
+  font-weight: normal;
+}
+
+footer {
+  position: relative;
+  background-color: #333333;
+  color: white;
+  text-align: center;
+  height: 20px;
+  padding: 10px;
+}
+
+footer a {
+  text-align: center;
+  color: white;
+  text-decoration: none;
+}
