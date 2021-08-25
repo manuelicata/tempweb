@@ -1,5 +1,5 @@
 #testo {
-  
+  background: rgb(65,128,124);
   background: linear-gradient(0deg, rgba(65,128,124,1) 0%, rgba(217,217,217,1) 63%); /* sfondo con sfumatura ottenuto da sito web */
   padding-left: 100px;
   padding-right: 100px;
